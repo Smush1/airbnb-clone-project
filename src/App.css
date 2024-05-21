@@ -1,0 +1,77 @@
+/* || RESET  */
+
+*{
+  margin:0;
+  box-sizing: border-box;
+}
+
+.header-logo{
+  width: 100px;
+}
+
+.header-container{
+  padding: 30px 40px;
+  box-shadow: 2px 2px 5px;
+  width: 100%;
+}
+
+/*  ||  HERO IMAGE */
+
+.hero-image{
+  display: block;
+  margin: 50px auto;
+}
+
+@media screen and (max-width:600px){
+  .hero-image{
+    width: 100%;}
+}
+
+
+/*  ||  Card Section  */
+
+.card{
+  position: relative;
+  width: 274px;
+}
+
+.card--stats{
+  display: flex;
+  align-items: center;
+  gap:3px; 
+}
+
+.card--stats .gray{
+  color: gray;
+}
+
+.card--star{
+  height: 14px;;
+}
+
+
+.card--cost{
+  font-weight: bolder;
+}
+
+
+.all-card-container{
+  display: flex;
+  gap: 2rem;
+  margin-top: 100px;
+}
+
+.card--badge{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: white;
+  padding: 4px;
+  font-weight: bold;
+}
+
+
+
+.joke{
+  display: none;
+}
